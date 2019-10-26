@@ -1,0 +1,319 @@
+{
+  "id": "38d7be21-183b-4012-8279-0cfb7ccba72c",
+  "version": "2.0",
+  "name": "Teste automatico",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfJSi8XDNx-KlsR4xNYEoyb01pzbRaHB5Nj5JNBvh_SQMew4Q/viewform?vc=0&c=0&w=1",
+  "tests": [{
+    "id": "e5d9afb7-c359-4e0d-a915-bfcb296138ed",
+    "name": "Teste feliz",
+    "commands": [{
+      "id": "c751ad21-6ee6-455c-bc9a-302cc4e1ad58",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSfJSi8XDNx-KlsR4xNYEoyb01pzbRaHB5Nj5JNBvh_SQMew4Q/viewform?vc=0&c=0&w=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8408c84b-e625-4542-b94c-a07bcbf575db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f190bf20-14fb-41df-80af-46857c1fcfab",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36ac6b6-916a-4acc-805e-c53e9dd2c033",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Daniel Sena"
+    }, {
+      "id": "359fa5fd-df91-44b9-89ba-44d9f855ebe8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput",
+      "targets": [
+        ["css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfeb8a98-5252-4788-94a3-51b8494daaf3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput",
+      "targets": [
+        ["css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2000-06-02"
+    }, {
+      "id": "7d9c2f36-1967-4a29-810c-812af032816e",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.2089971292",
+      "targets": [
+        ["name=entry.2089971292", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(3) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2089971292']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c87ebc-63ec-4087-9b27-7ce147e47978",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.2089971292",
+      "targets": [
+        ["name=entry.2089971292", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(3) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2089971292']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "danielsena@unigranrio.br"
+    }, {
+      "id": "5bb9b95e-080f-4a2a-9d37-7cc8228221f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/span/div/div/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7267324f-b49e-470e-8ddb-458763e92108",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.1314709281",
+      "targets": [
+        ["name=entry.1314709281", "name"],
+        ["css=.quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1314709281']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d088dc3-d50a-4681-b13f-f1f3c9deef94",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1314709281",
+      "targets": [
+        ["name=entry.1314709281", "name"],
+        ["css=.quantumWizTextinputPapertextareaInput", "css:finder"],
+        ["xpath=//textarea[@name='entry.1314709281']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[2]/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Batata doce faz bem para a saúde"
+    }, {
+      "id": "a0bca094-5051-474c-8b8c-3f2fe487ec01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonContent",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonContent", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aac572c-2556-4a40-bd72-967cf019b0b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e600b12-51e7-4a79-a277-7b7a9a8cb9ec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.freebirdFormviewerViewResponseConfirmationMessage",
+      "targets": [
+        ["css=.freebirdFormviewerViewResponseConfirmationMessage", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "Sua resposta foi registrada."
+    }]
+  }, {
+    "id": "201f7318-b2b5-4ea7-a7ce-f1baf14a0148",
+    "name": "Teste triste",
+    "commands": [{
+      "id": "cdc6dfd0-f1ae-4d27-9c98-394378f53881",
+      "comment": "",
+      "command": "open",
+      "target": "https://docs.google.com/forms/d/e/1FAIpQLSfJSi8XDNx-KlsR4xNYEoyb01pzbRaHB5Nj5JNBvh_SQMew4Q/viewform?vc=0&c=0&w=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c24b20f9-016b-4228-bde9-fcd8073fb984",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1298x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4236bce5-ab9f-4228-bc68-3a384f51c384",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23935c4b-4bd9-4e66-afe1-9f696e18c1f9",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Daniel Sena"
+    }, {
+      "id": "ed04de83-a0cd-47f8-841c-383d14c43707",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput",
+      "targets": [
+        ["css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fef7512-ffcf-4e52-b4bf-eb1729577962",
+      "comment": "",
+      "command": "type",
+      "target": "css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput",
+      "targets": [
+        ["css=.quantumWizTextinputPaperinputEl:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "2000-06-02"
+    }, {
+      "id": "72d28c4d-983a-47a7-8c8b-b8edf7c2517d",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.2089971292",
+      "targets": [
+        ["name=entry.2089971292", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(3) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2089971292']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9ac6174-71ec-4159-8095-43743baffe60",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.2089971292",
+      "targets": [
+        ["name=entry.2089971292", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(3) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.2089971292']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[3]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "danielsena@unigranrio.br"
+    }, {
+      "id": "4f01541a-1100-45e3-b3b4-89d719c5ffdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .quantumWizTogglePaperradioOffRadio",
+      "targets": [
+        ["css=.freebirdFormviewerViewItemsRadioOptionContainer:nth-child(1) .quantumWizTogglePaperradioOffRadio", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div/div[2]/div/span/div/div/label/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//label/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ff8f2a-44c7-4fa0-9c86-73fcd50023de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonContent",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonContent", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c760b98d-27a5-403c-9e9e-aaaa27c0ab30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HasError",
+      "targets": [
+        ["css=.HasError", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3079f4-c0db-413a-bd19-130734f8b6aa",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=i.err.554449679",
+      "targets": [
+        ["id=i.err.554449679", "id"],
+        ["css=#i\\.err\\.554449679", "css:finder"],
+        ["xpath=//div[@id='i.err.554449679']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[4]", "xpath:position"]
+      ],
+      "value": "Esta pergunta é obrigatória"
+    }]
+  }],
+  "suites": [{
+    "id": "4d26f04a-7a81-49f7-bdb8-a1829cecde84",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e5d9afb7-c359-4e0d-a915-bfcb296138ed"]
+  }],
+  "urls": ["https://docs.google.com/", "https://docs.google.com/forms/d/e/1FAIpQLSfJSi8XDNx-KlsR4xNYEoyb01pzbRaHB5Nj5JNBvh_SQMew4Q/viewform?vc=0&c=0&w=1"],
+  "plugins": []
+}
